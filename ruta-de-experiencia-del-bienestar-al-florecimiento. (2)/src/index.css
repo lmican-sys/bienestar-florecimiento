@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --areandina-green: #7FB536;
+    --areandina-green-dark: #659328;
+    --areandina-green-light: #94cf44;
+    --areandina-green-subtle: #f2f8eb;
+    --areandina-gray: #414141;
+    --areandina-gray-dark: #262626;
+    --areandina-gray-light: #6e6e6e;
+    --areandina-chalk: #F2F2F2;
+  }
+
+  body {
+    color: #414141;
+    background-color: #F8FAF6;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2d6a7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7FB536;
+}
+
+/* Print styling for executive reports */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}

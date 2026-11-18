@@ -1,0 +1,6 @@
+{
+  "name": "Consultor Florecimiento Areandina",
+  "description": "Especialista consultivo en sistematización de experiencias, diseño metodológico e innovación institucional bajo el Modelo Del Bienestar al Florecimiento de Areandina.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
